@@ -11,16 +11,16 @@ been prototyped onto a FPGA.
 
 ## **Softwares and Components used**
 -	Keil simulator
--	Xlinx vivado 
+-	Xilinx vivado 
 -	Basys 3 Artix-7 FPGA board
--	Cadence
+-	Cadence tools- genus and innovus
 
 ## **Procedure**
 
 This program is simulated in Keil μVision to create a code.hex file. This executable code.hex file 
-is copied to FPGA project directory and is synthesized using FPGA synthesis tool (Xilinx vivado). From vivado, bitstream file is
-generated which is dumped onto a FPGA board and we observe the led output. In addition to this the layout of the processor is 
-done on cadence tool.
+is copied to FPGA project directory and is synthesized and implemented as per Basys3 FPGA board in xilinx vivado. From vivado, 
+bitstream file is generated which is dumped onto a FPGA board and we observe the led output. In addition to this the layout of 
+the processor is done on cadence tool.
 
 ## **Synopsis of the Code**
 
@@ -46,9 +46,8 @@ selector bits and mux selector bits
 
 ![basys](https://user-images.githubusercontent.com/42762473/49689534-768d7800-fb48-11e8-8116-63ac00d001db.jpg)
 
-
-In this project,we have been using FPGA board.It has1,800 Kbits of fast block RAM,12-bit VGA output,16 user leds,16 user 
-switches,4-digit 7-segment display
+In this project,we have been using FPGA board.It has 1,800 Kbits of fast block RAM, 12-bit VGA output, 16 user leds, 16 user 
+switches, 4-digit 7-segment display. For this project we used 8 LEDs, one reset and clock of 100MHz.
 
 ## **Cadence tool**
 In the cadence tool, using genus we generated the gate level netlist file. this is given to another tool called innovus from which the pre layout synthesis is done. Then the power analysis, setup analysis and hold analysis is done. And post layout simulation was not as the CTS option was not available in the existing cadence tool.
