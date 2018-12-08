@@ -43,6 +43,7 @@ selector bits and mux selector bits
 - AHBLITE_SYS.v  - the top module.
 
 ## **SoC peripherals**
+
 ![soc peripheral](https://user-images.githubusercontent.com/42762473/49689505-23b3c080-fb48-11e8-8175-80657015085c.jpg)
 
 ## **Basys 3 Artix-7 Board:**
