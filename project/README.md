@@ -43,10 +43,11 @@ selector bits and mux selector bits
 - AHBLITE_SYS.v  - the top module.
 
 ## **SoC peripherals**
-![SoC] (images/SoC peripheral.jpg)
+![soc peripheral](https://user-images.githubusercontent.com/42762473/49689505-23b3c080-fb48-11e8-8175-80657015085c.jpg)
 
 ## **Basys 3 Artix-7 Board:**
-.........pic.
+
+
 In this project,we have been using FPGA board.It has1,800 Kbits of fast block RAM,12-bit VGA output,16 user leds,16 user 
 switches,4-digit 7-segment display
 
