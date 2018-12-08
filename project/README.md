@@ -48,13 +48,14 @@ selector bits and mux selector bits
 
 ## **Basys 3 Artix-7 Board:**
 
+![basys](https://user-images.githubusercontent.com/42762473/49689534-768d7800-fb48-11e8-8116-63ac00d001db.jpg)
 
 
 In this project,we have been using FPGA board.It has1,800 Kbits of fast block RAM,12-bit VGA output,16 user leds,16 user 
 switches,4-digit 7-segment display
 
 ## **Cadence tool**
-The layout is done in cadence tool to calculate the power ……..
+In the cadence tool, using genus we generated the gate level netlist file. this is given to another tool called innovus from which the pre layout synthesis is done. Then the power analysis, setup analysis and hold analysis is done.
 
 As an extension work we tried to change the code, so it takes two inputs where first input < second input. At every clock cycle, 
 the LED would blink in an incremental pattern till it reaches the second input. We could generate the code.hex file. But the 
