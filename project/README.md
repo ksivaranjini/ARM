@@ -49,6 +49,7 @@ selector bits and mux selector bits
 ## **Basys 3 Artix-7 Board:**
 
 
+
 In this project,we have been using FPGA board.It has1,800 Kbits of fast block RAM,12-bit VGA output,16 user leds,16 user 
 switches,4-digit 7-segment display
 
